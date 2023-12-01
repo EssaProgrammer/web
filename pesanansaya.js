@@ -25,6 +25,7 @@ let userbeli = []
 let barangbeli = []
 let belibrp = []
 let beliid = []
+let namabarang = []
 fetch('https://database.essaprogrammer.repl.co/database/get/product', {method: "GET"})
     .then(response => response.json())
     .then(data => {
