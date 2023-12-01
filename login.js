@@ -61,7 +61,7 @@ loginButton.addEventListener("click", () => {
             console.log("password sama")
             setCookie("username", usernameinput, 30)
             setCookie("password", passwordinput, 30)
-            window.location.replace("home.html")
+            window.location.replace("web/home.html")
         }
     }
 })
