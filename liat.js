@@ -42,7 +42,7 @@ document.getElementById("beli").addEventListener("click", () => {
     if (!getCookie("username") == "" && stoklist[barangid] != 0){
         localStorage.setItem("countbarang", Number(document.getElementById("angkabeli").value))
                                 localStorage.setItem("isbeli", "true")
-                                window.location.replace("/belisekarang.html")
+                                window.location.replace("belisekarang.html")
     }else {
         if (stoklist[barangid] == 0 && getCookie("username") == ""){
             alert("anda belum login")
@@ -55,7 +55,7 @@ document.getElementById("beli").addEventListener("click", () => {
 })
 
 document.getElementById("kembali").addEventListener("click", () => {
-    window.location.replace("/home.html")
+    window.location.replace("home.html")
 })
 
 document.getElementById("keranj").addEventListener("click", () => {

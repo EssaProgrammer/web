@@ -76,5 +76,5 @@ if (data.status){
 })
 
 document.getElementById("kembali").addEventListener("click", () => {
-    window.location.replace(localStorage.getItem("isbeli") == "true" ? "/liat.html": "keranjang.html")
+    window.location.replace(localStorage.getItem("isbeli") == "true" ? "liat.html": "keranjang.html")
 })

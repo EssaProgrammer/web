@@ -28,21 +28,21 @@ function issingout() {
         document.cookie = "password=;"
         window.location.reload()
     }else if (checkdipilih.value == "login") {
-        window.location.replace("/login.html")
+        window.location.replace("login.html")
     }else if (checkdipilih.value == "sign up") {
-        window.location.replace("/sign.html")
+        window.location.replace("sign.html")
     }else if (checkdipilih.value == "keranjang") {
-        window.location.replace("/keranjang.html")
+        window.location.replace("keranjang.html")
     }else if (checkdipilih.value == "pesanan") {
-        window.location.replace("/pesanan.html")
+        window.location.replace("pesanan.html")
     }else if (checkdipilih.value == "pesanan saya") {
-        window.location.replace("/pesanansaya.html")
+        window.location.replace("pesanansaya.html")
     }
 }
 
 function liat(type) {
     localStorage.setItem('type', type)
-    window.location.replace(`/liat.html`)
+    window.location.replace(`liat.html`)
 }
 
 const namapengguna = document.getElementById("namasiorang")

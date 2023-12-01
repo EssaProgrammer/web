@@ -114,7 +114,7 @@ fetch('https://database.essaprogrammer.repl.co/database/get/product', {method: "
                     .then(response => response.json())
                     .then(data => {
                         alert("dihapus")
-                        window.location.replace("/pesanan.html")
+                        window.location.replace("pesanan.html")
                     })
                     .catch(error => console.error(error));
                 })
@@ -136,5 +136,5 @@ fetch('https://database.essaprogrammer.repl.co/database/get/product', {method: "
     }
 
 document.getElementById("kembali").addEventListener("click", () => {
-    window.location.replace("/pesanan.html")
+    window.location.replace("pesanan.html")
 })

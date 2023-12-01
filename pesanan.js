@@ -1,5 +1,5 @@
 document.getElementById("kembali").addEventListener("click", () => {
-    window.location.replace("/home.html")
+    window.location.replace("home.html")
 })
 
 function setCookie(cname, cvalue, exdays) {
@@ -88,7 +88,7 @@ fetch('https://database.essaprogrammer.repl.co/database/get/product', {method: "
                         document.getElementById("wrapper").append(newel)
                         document.getElementById(`detail${i}`).addEventListener("click", () => {
                             localStorage.setItem("lihatpesanan", beliid[i])
-                            window.location.replace("/detail.html")
+                            window.location.replace("detail.html")
                         })
 
                 }

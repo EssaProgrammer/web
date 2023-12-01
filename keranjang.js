@@ -105,7 +105,7 @@ fetch('https://database.essaprogrammer.repl.co/database/get/product', {method: "
                                 localStorage.setItem("isbeli", "false")
                                 localStorage.setItem("belibarang", idofbarang[i]+1)
                                 localStorage.setItem("countbarang", barangadabrp[i])
-                                window.location.replace("/belisekarang.html")
+                                window.location.replace("belisekarang.html")
                             }else {
                                 alert("stok kosong")
                             }
@@ -129,5 +129,5 @@ fetch('https://database.essaprogrammer.repl.co/database/get/product', {method: "
     .catch(error => console.error(error));
 
 document.getElementById("kembali").addEventListener("click", () => {
-    window.location.replace("/home.html")
+    window.location.replace("home.html")
 })
