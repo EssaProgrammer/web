@@ -41,7 +41,7 @@ btnsingup.addEventListener("click", () => {
         if (data.status == "successfully"){
             setCookie("username", usernameinput, 30)
             setCookie("password", passwordinput, 30)
-            window.location.replace("web/home.html")
+            window.location.replace("/web/home.html")
         }
     })
     .catch(error => console.error(error));
