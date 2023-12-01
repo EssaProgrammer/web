@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(255, 252, 80);
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.listofnav {
+    list-style-type: none;
+}
+.listofnav>li {
+    color: white;
+}
+#opsibadabida {
+    background-color: rgb(255, 252, 80);
+    border-style: solid;
+    border-width: 0px;
+}
+.imag {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.barang {
+    padding: 20px;
+    background-color: rgb(255, 252, 80);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 60px;
+}
+.barang {
+    display: flex;
+    flex-direction: column;
+}
+.btn-barang {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(255, 252, 80);
+}
+
+.btn-barang:hover {
+    background-color: rgb(214, 212, 70);
+    transition: all 0.2s;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul class="listofnav">
+                <li id="namapengguna">
+                    <select name="yondaktau" id="opsibadabida" onchange="issingout()">
+                        <option id="namasiorang"></option>
+                        <option id="keranjanggatuh">keranjang</option>
+                        <option id="akugaknaikodong2">sign out</option>
+                        <option id="akugknaikodonghaghag">pesanan saya</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper wrap-1">
+            <div class="barang barang-1">
+                <div style="display: flex; justify-content: center; margin-bottom: 5px;">Proris Forte</div>
+                <img src="proris.jpg" class="imag imag-1"/>
+                <div style="display: flex; margin-top: 10px;">Rp.30.000</div>
+                <button id="btnbarang1" class="btn-barang" onclick="liat('1')">lihat barang</button>
+            </div>
+            <div class="barang barang-2">
+                <div style="display: flex; justify-content: center; margin-bottom: 5px;">Promag</div>
+                <img src="promag.jpg" class="imag imag-2"/>
+                <div style="display: flex; margin-top: 10px;">Rp.28.000</div>
+                <button id="btnbarang2" class="btn-barang" onclick="liat('2')">lihat barang</button>
+            </div>
+            <div class="barang barang-3">
+                <div style="display: flex; justify-content: center; margin-bottom: 5px;">Minyak Telon</div>
+                <img src="telon.jpg" class="imag imag-3"/>
+                <div style="display: flex; margin-top: 10px;">Rp.36.000</div>
+                <button id="btnbarang3" class="btn-barang" onclick="liat('3')">lihat barang</button>
+            </div>
+            <div class="barang barang-4">
+                <div style="display: flex; justify-content: center; margin-bottom: 5px;">Minyak Kayu Putih</div>
+                <img src="kayuputih.jpg" class="imag imag-4"/>
+                <div style="display: flex; margin-top: 10px;">Rp.30.000</div>
+                <button id="btnbarang4" class="btn-barang" onclick="liat('4')">lihat barang</button>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

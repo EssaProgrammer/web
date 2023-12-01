@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="x-icon" href="huge.png"/>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="hasil">
+                <p id="gaktau"></p>
+            </div>
+            <div class="line line1">
+                <button class="btn btn-1" onclick="btn('1')">1</button>
+                <button class="btn btn-2" onclick="btn('2')">2</button>
+                <button class="btn btn-3" onclick="btn('3')">3</button>
+                <button class="btn btn-back" onclick="btn('back')">&larr;</button>
+            </div>
+            <div class="line line2">
+                <button class="btn btn-4" onclick="btn('4')">4</button>
+                <button class="btn btn-5" onclick="btn('5')">5</button>
+                <button class="btn btn-6" onclick="btn('6')">6</button>
+                <button class="btn btn-CE" onclick="btn('CE')">CE</button>
+            </div>
+            <div class="line line3">
+                <button class="btn btn-7" onclick="btn('7')">7</button>
+                <button class="btn btn-8" onclick="btn('8')">8</button>
+                <button class="btn btn-9" onclick="btn('9')">9</button>
+                <button class="btn btn-C" onclick="btn('C')">C</button>
+            </div>
+            <div class="line line4">
+                <button class="btn btn-0" onclick="btn('0')">0</button>
+                <button class="btn btn-." onclick="btn('.')">.</button>
+                <button class="btn btn-+" onclick="btn('+')">+</button>
+                <button class="btn btn--" onclick="btn('-')">-</button>
+            </div>
+            <div class="line line5">
+                <button class="btn btn-*" onclick="btn('*')">*</button>
+                <button class="btn btn-%" onclick="btn('%')">%</button>
+                <button class="btn btn-/" onclick="btn('/')">/</button>
+                <button class="btn btn-=" onclick="btn('=')">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 252, 80);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.hehe {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#thisimg {
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+}
+
+#hapuskirim {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#kembali, #tandai, #hapuskirim {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(255, 252, 80);
+}
+
+#kembali:hover {
+    background-color: rgb(214, 212, 70);
+    transition: all 0.2s;
+}
+
+#tandai:hover {
+    background-color: rgb(214, 212, 70);
+    transition: all 0.2s;
+}
+
+#hapuskirim:hover {
+    background-color: rgb(214, 212, 70);
+    transition: all 0.2s;
+}
+
+#kembali {
+    margin-top: 5px;
+}

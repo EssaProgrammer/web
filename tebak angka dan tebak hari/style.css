@@ -1,0 +1,78 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: tomato;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.ogaktau {
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    margin: 10px;
+}
+
+.oyagaktau {
+    color: white;
+    font-weight: 700;
+}
+
+.btn {
+    width: 30%;
+}
+
+.gajelas {
+    width: 70%;
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    background-color: #222;
+}
+
+.navbar>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding: 7px;
+}
+
+.navbar>ul>li>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+
+.navbar>ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pencetantext {
+    margin-left: 15px;
+}
+
+.pencetantext>a {
+    text-decoration: none;
+    color: white;
+}

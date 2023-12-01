@@ -1,0 +1,111 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    transition: all .7s;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: tomato;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.theul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-1 {
+    margin-left: 15px;
+}
+
+.item-1>img {
+    height: 55px;
+    width: 55px;
+    border-radius: 55px;
+}
+
+.item-2 {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.item-3 {
+    margin-left: 800px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.item-4 {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(69, 165, 255);
+    padding: 15px;
+}
+
+
+.wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 450px;
+    margin-top: 10px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    background-color: tomato;
+}
+
+.btn-2 {
+    background-color: rgb(255, 255, 80);
+}
+
+.btn-3 {
+    background-color: rgb(94, 255, 94);
+}
+
+.btn-4 {
+    background-color: rgb(92, 92, 255);
+}
+
+.tulisan {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
